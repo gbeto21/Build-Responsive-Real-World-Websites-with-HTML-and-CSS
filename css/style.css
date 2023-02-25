@@ -1,4 +1,16 @@
 /*
+By default 1 rem = 16px
+Because We don't specify any default font size 
+on the HTML element.
+
+We redefine the font size:
+html {
+  font-size: 10px;
+}
+
+*/
+
+/*
 --- 01 Typography system
 - Font sizes (px):
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -43,4 +55,10 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
 }
